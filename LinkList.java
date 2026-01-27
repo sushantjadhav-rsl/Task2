@@ -25,7 +25,7 @@ class LinKlist {
         }
     }
 
-    // new function to inserrt at end 
+  
 
     static void insertAtEnd (int data ){
         Node temp = new Node(data);
@@ -39,12 +39,12 @@ class LinKlist {
             tail = temp ;
         }
     }
-    // generic insert (alias to insertAtEnd)
+    
     static void insert(int data) {
         insertAtEnd(data);
     }
     
-    // display the list from head to tail
+    
     static void display() {
         if (head == null) {
             System.out.println("List is empty");
@@ -97,7 +97,7 @@ class LinKlist {
         }
         return false;
     }
-    // new function to find the code 
+ 
     static void Find(int data){
         Node temp = head ;
         while (temp != null){
@@ -110,16 +110,16 @@ class LinKlist {
         System.out.println("No Data found");
     }
 public static void main(String[] args) {
-    // quick demo
+    
     insert(10);
     insertAtStart(5);
     insertAtEnd(20);
     insertAtEnd(3);
-    display(); // expected: 5 10 20
+    display(); 
 
     deleteByValue(5); 
     deleteByValue(20); 
-    display(); // expected: 10
+    display(); 
 
     deleteByValue(10); 
     display(); 
