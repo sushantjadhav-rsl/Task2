@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-// 1. ABSTRACTION & COMPONENTS (Composition)
 
 
 // Abstract component for status reporting
@@ -127,7 +126,7 @@ class Bicycle extends Vehicle {
 }
 
 
-// 3. THE FACTORY
+
 
 
 class VehicleFactory {
@@ -145,7 +144,7 @@ class VehicleFactory {
 }
 
 
-// 4. MAIN PROGRAM
+
 
 public class ProductionLine {
     public static void main(String[] args) {
