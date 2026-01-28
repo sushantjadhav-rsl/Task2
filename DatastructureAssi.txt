@@ -1,0 +1,33 @@
+Question - 1 Implement a doubly LinkList program 
+Answer - https://github.com/sushantjadhav-rsl/Task2/tree/asignment
+
+Question -2 
+Answer -https://drive.google.com/file/d/175aJmGNj7Ix9_bvxZG8SY8xBqKboRvCT/view?usp=sharing
+
+Question -3 
+a-You are a vehicle manufacturer and you need to store a record of parts and their respective
+costing
+answer - Data Structure used to solve this problem will be Hash table
+         as here each of the part will  have unique cost which can be a key 
+         and the name of the part can be the value 
+         hence data can be stired in key value pair 
+
+
+
+b- You have to mark attendance for a class of students
+Answer-    appropriate data structure will be Array 
+           No of student in class are usally equal hence the array of fixed size will 
+            work 
+           each index in the array represent a student and value represnts the attendance status.
+
+c-You want to make a music player with a functionality to navigate to the previous/next song. What
+Data structure can be used for storing the songs?
+Answer-    Music palyer require the two way navigation which is best supported by 
+           Doubly Link List 
+           Each song node consits of pointer to the next song and the pointer to previous song 
+
+
+d-You have to write a parser to check whether my code sentence has correct number of closing
+brackets
+Answer-    stacks works on the principle last in first ou (LIFO) and for the current problem last openned bracket
+           needs to be closed first.
